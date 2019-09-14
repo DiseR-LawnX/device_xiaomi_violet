@@ -902,7 +902,7 @@ service qti-testscripts /system/bin/sh /system/etc/init.qcom.testscripts.sh
     user root
     disabled
     oneshot
-    seclabel u:r:qti-testscripts:s0
+    #seclabel u:r:qti-testscripts:s0
 
 service wifi-sdio-on /vendor/bin/init.qcom.sdio.sh
     class late_start
@@ -991,7 +991,7 @@ service profiler_daemon /system/bin/profiler_daemon
 service charger /sbin/chargeonlymode
     class charger
     group system graphics
-    seclabel u:r:healthd:s0
+    #seclabel u:r:healthd:s0
 
 service vendor.ssr_diag /system/vendor/bin/ssr_diag
     class late_start
