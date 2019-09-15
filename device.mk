@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
     libqdutils \
     libdrm.vendor \
     libdisplayconfig \
+    libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
     libvulkan \
@@ -217,11 +218,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
 
 # IFAA manager
-PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
-
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+#PRODUCT_PACKAGES += \
+#    org.ifaa.android.manager
+#
+#PRODUCT_BOOT_JARS += \
+#    org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -403,5 +404,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
