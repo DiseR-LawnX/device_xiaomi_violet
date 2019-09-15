@@ -218,11 +218,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
 
 # IFAA manager
-#PRODUCT_PACKAGES += \
-#    org.ifaa.android.manager
-#
-#PRODUCT_BOOT_JARS += \
-#    org.ifaa.android.manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
+
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
